@@ -1,0 +1,23 @@
+INFO    2021-01-20 12:05:26,897 [main] org.springframework.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+INFO    2021-01-20 12:13:59,376 [main] org.springframework.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+INFO    2021-01-20 12:14:04,931 [main] org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.4.21.Final
+INFO    2021-01-20 12:14:05,584 [main] org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+INFO    2021-01-20 12:14:07,017 [main] org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO    2021-01-20 12:14:10,016 [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO    2021-01-20 12:14:11,521 [main] org.springframework.web.context.ContextLoader  - Root WebApplicationContext initialized in 12144 ms
+INFO    2021-01-20 12:14:20,860 [http-nio-9001-exec-1] org.springframework.web.servlet.DispatcherServlet  - Initializing Servlet 'dispatcher'
+INFO    2021-01-20 12:14:20,936 [http-nio-9001-exec-1] org.springframework.web.servlet.DispatcherServlet  - Completed initialization in 75 ms
+WARN    2021-01-20 12:14:21,820 [http-nio-9001-exec-3] org.hibernate.orm.deprecation  - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+WARN    2021-01-20 12:14:22,312 [http-nio-9001-exec-3] org.hibernate.orm.deprecation  - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+INFO    2021-01-20 12:14:22,379 [http-nio-9001-exec-3] com.socialapp.controller.SessionController  - User logged in :corbincreedon@yahoo.com
+INFO    2021-01-20 12:14:22,586 [http-nio-9001-exec-5] com.socialapp.controller.PostController  - User requesting all posts! Ooo lah lah
+WARN    2021-01-20 12:14:36,535 [http-nio-9001-exec-3] org.hibernate.orm.deprecation  - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+INFO    2021-01-20 12:14:38,988 [http-nio-9001-exec-6] com.socialapp.controller.PostController  - User requesting all posts! Ooo lah lah
+INFO    2021-01-20 12:14:39,613 [http-nio-9001-exec-7] com.socialapp.controller.PostController  - User requesting all posts! Ooo lah lah
+INFO    2021-01-20 12:14:51,281 [http-nio-9001-exec-4] com.socialapp.controller.PostController  - Post createdPost [postId=56, postDate=2021-01-20 12:14:50.857, message=test, postPicURL=https://socialmediasite.s3-us-east-2.amazonaws.com/corbincreedon@yahoo.com/posts/dkmapXtKYEMLkQNhSn39dn.jpeg, likes=0]
+INFO    2021-01-20 12:14:51,327 [http-nio-9001-exec-6] com.socialapp.controller.PostController  - User requesting all posts! Ooo lah lah
+INFO    2021-01-20 12:14:51,945 [http-nio-9001-exec-7] com.socialapp.controller.PostController  - User requesting all posts! Ooo lah lah
+INFO    2021-01-20 12:14:57,856 [http-nio-9001-exec-2] com.socialapp.controller.PostController  - User requesting all posts! Ooo lah lah
+INFO    2021-01-20 12:15:00,813 [http-nio-9001-exec-8] com.socialapp.controller.PostController  - User requesting all posts! Ooo lah lah
+INFO    2021-01-20 12:15:01,432 [http-nio-9001-exec-9] com.socialapp.controller.PostController  - User requesting all posts! Ooo lah lah
+INFO    2021-01-20 12:15:09,922 [http-nio-9001-exec-5] com.socialapp.controller.SessionController  - User logged out
